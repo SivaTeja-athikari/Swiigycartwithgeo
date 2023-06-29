@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "187872385060",
+    "project_id": "authenticatewithsocialsites",
+    "storage_bucket": "authenticatewithsocialsites.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:187872385060:android:d88b5d8ee63105142060b1",
+        "android_client_info": {
+          "package_name": "com.swiggycart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "187872385060-n3tb7pct5od70jd698fs17rg64udukoe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.swiggycart",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "187872385060-vc9oui0svivh5at383kg8mnjntpdb5c3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9UuRpt3rSOj_MyFwyN6Xpy1htnilveVk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "187872385060-6u0c93jmvti5o6ujl0vla017i2p7e4bp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
