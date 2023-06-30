@@ -7,6 +7,9 @@ import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import Home from './src/blocks/Home/Home';
 import FackbookAuth from './src/blocks/FacebookAuth';
 import MapsGeoLoacation from './src/blocks/MapsGeoLoacation/MapsGeoLoacation';
+import {Provider} from 'react-redux';
+import TodoApp from './src/blocks/TodoApp';
+import store from './src/redux/store';
 
 const Stack = createNativeStackNavigator();
 
@@ -21,7 +24,10 @@ class App extends Component {
       //     <Stack.Screen name="FackbookAuth" component={FackbookAuth} />
       //   </Stack.Navigator>
       // </NavigationContainer>
-      <MapsGeoLoacation />
+      // <MapsGeoLoacation />
+      <Provider store={store}>
+        <TodoApp />
+      </Provider>
     );
   }
 }
