@@ -25,9 +25,10 @@ class App extends Component {
       //   </Stack.Navigator>
       // </NavigationContainer>
       // <MapsGeoLoacation />
-      <Provider store={store}>
-        <TodoApp />
-      </Provider>
+      // <Provider store={store}>
+      //   <TodoApp />
+      // </Provider>
+      <Home />
     );
   }
 }
